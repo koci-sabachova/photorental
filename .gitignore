@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+.env
+*.log
+
+# docs/ se generuje z _pages + _partials příkazem `npm run build`
+docs/
+
+# nezpracované podklady z migrace (PDF ceníku, stažené HTML, originální fotky) —
+# do repa jde jen zpracovaný výstup v assets/img/
+/assets/source/

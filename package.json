@@ -1,0 +1,10 @@
+{
+  "name": "photorental",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "serve": "npm run build && cd docs && python3 -m http.server 8000"
+  }
+}

@@ -1,0 +1,26 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{titleCs}}</title>
+<meta name="description" content="{{descriptionCs}}">
+<link rel="icon" href="/assets/img/logo/favicon.png">
+<link rel="stylesheet" href="/assets/css/style.css">
+<script>
+  window.__i18nMeta = {
+    titleCs: {{titleCsJson}},
+    titleEn: {{titleEnJson}},
+    descCs: {{descriptionCsJson}},
+    descEn: {{descriptionEnJson}}
+  };
+  // Zjištění jazyka před vykreslením stránky (žádné bliknutí špatným jazykem).
+  (function () {
+    var saved = localStorage.getItem('lang');
+    var lang;
+    if (saved === 'cs' || saved === 'en') {
+      lang = saved;
+    } else {
+      lang = (navigator.language || '').toLowerCase().indexOf('cs') === 0 ? 'cs' : 'en';
+    }
+    document.documentElement.setAttribute('data-lang', lang);
+    document.documentElement.setAttribute('lang', lang);
+  })();
+</script>
