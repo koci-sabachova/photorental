@@ -23,11 +23,16 @@
 
       var listHtml = cat.items.map(function (item) {
         if (item.sub) {
-          return '<li class="is-sub">' + escapeHtml(item.sub) + '</li>';
+          return '<li class="is-sub">' +
+            '<span lang="cs">' + escapeHtml(item.sub.cs) + '</span>' +
+            '<span lang="en">' + escapeHtml(item.sub.en) + '</span>' +
+          '</li>';
         }
         return '<li class="gear-list__item">' +
-          '<label><input type="checkbox" data-select-item value="' + escapeHtml(item.name) + '"> ' +
-          escapeHtml(item.name) + '</label></li>';
+          '<label><input type="checkbox" data-select-item value="' + escapeHtml(item.name.cs) + '"> ' +
+            '<span lang="cs">' + escapeHtml(item.name.cs) + '</span>' +
+            '<span lang="en">' + escapeHtml(item.name.en) + '</span>' +
+          '</label></li>';
       }).join('');
 
       section.innerHTML =

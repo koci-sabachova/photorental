@@ -90,10 +90,11 @@ async function handleApi(request, env, url) {
 
     let message;
     if (body.action === 'add') {
-      const name = (body.name || '').trim();
-      if (!name) return json({ error: 'Chybí název položky.' }, 400);
-      cat.items.push({ name });
-      message = `Admin: přidána položka „${name}“ do kategorie „${cat.name.cs}“`;
+      const nameCs = (body.nameCs || '').trim();
+      const nameEn = (body.nameEn || '').trim() || nameCs;
+      if (!nameCs) return json({ error: 'Chybí český název položky.' }, 400);
+      cat.items.push({ name: { cs: nameCs, en: nameEn } });
+      message = `Admin: přidána položka „${nameCs}“ do kategorie „${cat.name.cs}“`;
     } else if (body.action === 'remove') {
       if (typeof body.idx !== 'number' || !cat.items[body.idx]) {
         return json({ error: 'Položka nenalezena.' }, 400);
@@ -209,8 +210,11 @@ const PAGE = `<!doctype html>
       <label for="sel-category">Kategorie</label>
       <select id="sel-category"></select>
 
-      <label for="inp-item">Název nové položky</label>
+      <label for="inp-item">Český název nové položky</label>
       <input type="text" id="inp-item" placeholder="např. Profoto B10 Plus 250Ws">
+
+      <label for="inp-item-en">Anglický název (nech prázdné, pokud je stejný jako český — běžné u značkových názvů)</label>
+      <input type="text" id="inp-item-en" placeholder="jen pokud se liší od českého">
 
       <button id="btn-add-item" type="button">Přidat položku</button>
       <p class="status" id="item-status"></p>
@@ -264,6 +268,7 @@ const PAGE = `<!doctype html>
     app: document.getElementById('app'),
     selCategory: document.getElementById('sel-category'),
     inpItem: document.getElementById('inp-item'),
+    inpItemEn: document.getElementById('inp-item-en'),
     btnAddItem: document.getElementById('btn-add-item'),
     itemStatus: document.getElementById('item-status'),
     itemList: document.getElementById('item-list'),
@@ -328,7 +333,9 @@ const PAGE = `<!doctype html>
     var cat = currentCategory();
     if (!cat) return;
     els.itemList.innerHTML = cat.items.map(function (item, idx) {
-      var label = item.sub ? '<em>' + escapeHtml(item.sub) + '</em>' : escapeHtml(item.name);
+      var label = item.sub
+        ? '<em>' + escapeHtml(item.sub.cs) + '</em>'
+        : escapeHtml(item.name.cs) + (item.name.en !== item.name.cs ? ' <span style="color:var(--grey-70)">(' + escapeHtml(item.name.en) + ')</span>' : '');
       return '<div class="item-row"><span>' + label + '</span>' +
         '<button type="button" data-remove="' + idx + '">Smazat</button></div>';
     }).join('');
@@ -340,15 +347,17 @@ const PAGE = `<!doctype html>
   function addItem() {
     var cat = currentCategory();
     var name = els.inpItem.value.trim();
+    var nameEn = els.inpItemEn.value.trim();
     if (!cat || !name) return;
     els.btnAddItem.disabled = true;
     api('/api/equipment', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ action: 'add', categoryId: cat.id, name: name }),
+      body: JSON.stringify({ action: 'add', categoryId: cat.id, nameCs: name, nameEn: nameEn }),
     }).then(function (data) {
       equipmentData = data;
       els.inpItem.value = '';
+      els.inpItemEn.value = '';
       renderItemList();
       setStatus(els.itemStatus, 'Uloženo a nahráno: „' + name + '“ přidáno do kategorie „' + cat.name.cs + '“.', 'ok');
     }).catch(function (err) {
@@ -492,6 +501,8 @@ export default {
         return json({ error: err.message }, 500);
       }
     }
-    return new Response(PAGE, { headers: { 'Content-Type': 'text/html; charset=utf-8' } });
+    return new Response(PAGE, {
+      headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' },
+    });
   },
 };

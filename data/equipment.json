@@ -2,527 +2,2672 @@
   "categories": [
     {
       "id": "power-packs",
-      "name": { "cs": "Zdroje a hlavice", "en": "Power packs and heads" },
+      "name": {
+        "cs": "Zdroje a hlavice",
+        "en": "Power packs and heads"
+      },
       "thumb": "assets/img/rental/thumb/power-packs.jpg",
       "items": [
-        { "name": "Profoto 8Air 2400 Ws asymmetrical" },
-        { "name": "Profoto Pro-10 / Pro-11 2400Ws asymmetrical" },
-        { "name": "Profoto B4 1000 Ws Battery pack (charger inc.)" },
-        { "name": "Extra battery for Profoto B4" },
-        { "name": "Profoto UV Head + reflector" },
-        { "name": "Profoto UV-ProB head 1200Ws" },
-        { "name": "Profoto Twin head (4800Ws)" },
-        { "name": "Profoto ProRing2 2400Ws" },
-        { "name": "Profoto B1/B10 500Ws Air TTL-C" },
-        { "name": "Profoto B1/B10 500Ws TTL-C (extra battery)" },
-        { "name": "Profoto B10 250Ws" },
-        { "name": "Profoto B10 250Ws (extra battery)" },
-        { "name": "Profoto D2 1000Ws" },
-        { "name": "Profoto D2 500Ws" },
-        { "name": "Profoto extension cable for head 5m" },
-        { "name": "Profoto extension cable for head 10m" },
-        { "name": "Profoto Air Sync" },
-        { "name": "Profoto strip light M" },
-        { "name": "Profoto Stick Light 2400Ws" },
-        { "name": "Profoto Fresnel spot" },
-        { "name": "Profoto Zoom spot" },
-        { "name": "Charger Profoto Pro B" },
-        { "name": "Synchro cable for Air Sync" },
-        { "name": "Profoto A1 for Canon" },
-        { "name": "Blýskací žárovky" }
+        {
+          "name": {
+            "cs": "Profoto 8Air 2400 Ws asymmetrical",
+            "en": "Profoto 8Air 2400 Ws asymmetrical"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto Pro-10 / Pro-11 2400Ws asymmetrical",
+            "en": "Profoto Pro-10 / Pro-11 2400Ws asymmetrical"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto B4 1000 Ws Battery pack (charger inc.)",
+            "en": "Profoto B4 1000 Ws Battery pack (charger inc.)"
+          }
+        },
+        {
+          "name": {
+            "cs": "Extra battery for Profoto B4",
+            "en": "Extra battery for Profoto B4"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto UV Head + reflector",
+            "en": "Profoto UV Head + reflector"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto UV-ProB head 1200Ws",
+            "en": "Profoto UV-ProB head 1200Ws"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto Twin head (4800Ws)",
+            "en": "Profoto Twin head (4800Ws)"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto ProRing2 2400Ws",
+            "en": "Profoto ProRing2 2400Ws"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto B1/B10 500Ws Air TTL-C",
+            "en": "Profoto B1/B10 500Ws Air TTL-C"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto B1/B10 500Ws TTL-C (extra battery)",
+            "en": "Profoto B1/B10 500Ws TTL-C (extra battery)"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto B10 250Ws",
+            "en": "Profoto B10 250Ws"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto B10 250Ws (extra battery)",
+            "en": "Profoto B10 250Ws (extra battery)"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto D2 1000Ws",
+            "en": "Profoto D2 1000Ws"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto D2 500Ws",
+            "en": "Profoto D2 500Ws"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto extension cable for head 5m",
+            "en": "Profoto extension cable for head 5m"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto extension cable for head 10m",
+            "en": "Profoto extension cable for head 10m"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto Air Sync",
+            "en": "Profoto Air Sync"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto strip light M",
+            "en": "Profoto strip light M"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto Stick Light 2400Ws",
+            "en": "Profoto Stick Light 2400Ws"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto Fresnel spot",
+            "en": "Profoto Fresnel spot"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto Zoom spot",
+            "en": "Profoto Zoom spot"
+          }
+        },
+        {
+          "name": {
+            "cs": "Charger Profoto Pro B",
+            "en": "Charger Profoto Pro B"
+          }
+        },
+        {
+          "name": {
+            "cs": "Synchro cable for Air Sync",
+            "en": "Synchro cable for Air Sync"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto A1 for Canon",
+            "en": "Profoto A1 for Canon"
+          }
+        },
+        {
+          "name": {
+            "cs": "Blýskací žárovky",
+            "en": "Flash tubes"
+          }
+        }
       ]
     },
     {
       "id": "light-shaping",
-      "name": { "cs": "Tvarování světla", "en": "Light shaping tools" },
+      "name": {
+        "cs": "Tvarování světla",
+        "en": "Light shaping tools"
+      },
       "thumb": "assets/img/rental/thumb/light-shaping.jpg",
       "items": [
-        { "name": "Profoto softbox 1x3'" },
-        { "name": "GRID for softbox 1x3'" },
-        { "name": "Profoto 1x4' Softbox" },
-        { "name": "GRID for Softbox 1x4'" },
-        { "name": "Profoto softbox 1x6'" },
-        { "name": "GRID for softbox 1x6'" },
-        { "name": "Chimera softbox 2x6'" },
-        { "name": "GRID for softbox 2x6'" },
-        { "name": "Profoto 2x2' Softbox" },
-        { "name": "GRID for softbox 2x2'" },
-        { "name": "Profoto 2x3' Softbox" },
-        { "name": "GRID for softbox 2x3'" },
-        { "name": "Profoto 3x4' Softbox" },
-        { "name": "GRID for Softbox 3x4'" },
-        { "name": "Profoto 4x6' Softbox" },
-        { "name": "GRID for softbox 4x6'" },
-        { "name": "Profoto Octabox 3'" },
-        { "name": "GRID for Octabox 3'" },
-        { "name": "Profoto Octabox 5'" },
-        { "name": "GRID for Octabox 5'" },
-        { "name": "Chimera Octabox 7'" },
-        { "name": "GRID for Octabox 7'" },
-        { "name": "Chimera pancake L" },
-        { "name": "Chimera XXS" },
-        { "name": "GRID for Chimera XXS" },
-        { "name": "Chimera XS" },
-        { "name": "GRID for Chimera XS" },
-        { "name": "Chimera S" },
-        { "name": "GRID for Chimera S" },
-        { "name": "Chimera M" },
-        { "name": "GRID for Chimera M" },
-        { "name": "Chimera L" },
-        { "name": "GRID for Chimera L" },
-        { "name": "Elinchrom Rotalux 100cm with Profoto speedring" },
-        { "name": "Elinchrom Octabank 150cm" },
-        { "name": "Elinchrom Livemotive indirect 190cm" },
-        { "name": "Photek S with sock" },
-        { "name": "Photek M with sock" },
-        { "name": "Photek L with sock" },
-        { "name": "Umbrella S silver / white / transparent" },
-        { "name": "Umbrella M white" },
-        { "name": "Umbrella L silver / white / transparent" },
-        { "name": "Profoto Umbrella XL" },
-        { "name": "Diffusion for umbrella M, L, XL" },
-        { "name": "Profoto Softlight / Beauty dish white" },
-        { "name": "Profoto grid / honeycomb for beauty dish" },
-        { "name": "Profoto diffusion for beauty dish" },
-        { "name": "Profoto Magnum reflector" },
-        { "name": "Profoto Telezoom reflector" },
-        { "name": "Profoto honeycomb for Magnum or Telezoom reflector" },
-        { "name": "Profoto grid / honeycomb set 5, 10, 20° + holder" },
-        { "name": "Profoto Narrow Beam reflector" },
-        { "name": "Profoto snoot" },
-        { "name": "Cine reflector kit" },
-        { "name": "Profoto barn doors (for Profoto zoom reflector)" },
-        { "name": "Profoto Hard Box" },
-        { "name": "Ball 1,6m / 6ft" },
-        { "name": "Profoto Globe 60cm" },
-        { "name": "Disk reflector" },
-        { "name": "Pro Fresnel spot" },
-        { "name": "Small spot for Profoto head" },
-        { "name": "Standard reflector" },
-        { "name": "Speedring for softbox / Chimera" }
+        {
+          "name": {
+            "cs": "Profoto softbox 1x3'",
+            "en": "Profoto softbox 1x3'"
+          }
+        },
+        {
+          "name": {
+            "cs": "GRID for softbox 1x3'",
+            "en": "GRID for softbox 1x3'"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto 1x4' Softbox",
+            "en": "Profoto 1x4' Softbox"
+          }
+        },
+        {
+          "name": {
+            "cs": "GRID for Softbox 1x4'",
+            "en": "GRID for Softbox 1x4'"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto softbox 1x6'",
+            "en": "Profoto softbox 1x6'"
+          }
+        },
+        {
+          "name": {
+            "cs": "GRID for softbox 1x6'",
+            "en": "GRID for softbox 1x6'"
+          }
+        },
+        {
+          "name": {
+            "cs": "Chimera softbox 2x6'",
+            "en": "Chimera softbox 2x6'"
+          }
+        },
+        {
+          "name": {
+            "cs": "GRID for softbox 2x6'",
+            "en": "GRID for softbox 2x6'"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto 2x2' Softbox",
+            "en": "Profoto 2x2' Softbox"
+          }
+        },
+        {
+          "name": {
+            "cs": "GRID for softbox 2x2'",
+            "en": "GRID for softbox 2x2'"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto 2x3' Softbox",
+            "en": "Profoto 2x3' Softbox"
+          }
+        },
+        {
+          "name": {
+            "cs": "GRID for softbox 2x3'",
+            "en": "GRID for softbox 2x3'"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto 3x4' Softbox",
+            "en": "Profoto 3x4' Softbox"
+          }
+        },
+        {
+          "name": {
+            "cs": "GRID for Softbox 3x4'",
+            "en": "GRID for Softbox 3x4'"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto 4x6' Softbox",
+            "en": "Profoto 4x6' Softbox"
+          }
+        },
+        {
+          "name": {
+            "cs": "GRID for softbox 4x6'",
+            "en": "GRID for softbox 4x6'"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto Octabox 3'",
+            "en": "Profoto Octabox 3'"
+          }
+        },
+        {
+          "name": {
+            "cs": "GRID for Octabox 3'",
+            "en": "GRID for Octabox 3'"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto Octabox 5'",
+            "en": "Profoto Octabox 5'"
+          }
+        },
+        {
+          "name": {
+            "cs": "GRID for Octabox 5'",
+            "en": "GRID for Octabox 5'"
+          }
+        },
+        {
+          "name": {
+            "cs": "Chimera Octabox 7'",
+            "en": "Chimera Octabox 7'"
+          }
+        },
+        {
+          "name": {
+            "cs": "GRID for Octabox 7'",
+            "en": "GRID for Octabox 7'"
+          }
+        },
+        {
+          "name": {
+            "cs": "Chimera pancake L",
+            "en": "Chimera pancake L"
+          }
+        },
+        {
+          "name": {
+            "cs": "Chimera XXS",
+            "en": "Chimera XXS"
+          }
+        },
+        {
+          "name": {
+            "cs": "GRID for Chimera XXS",
+            "en": "GRID for Chimera XXS"
+          }
+        },
+        {
+          "name": {
+            "cs": "Chimera XS",
+            "en": "Chimera XS"
+          }
+        },
+        {
+          "name": {
+            "cs": "GRID for Chimera XS",
+            "en": "GRID for Chimera XS"
+          }
+        },
+        {
+          "name": {
+            "cs": "Chimera S",
+            "en": "Chimera S"
+          }
+        },
+        {
+          "name": {
+            "cs": "GRID for Chimera S",
+            "en": "GRID for Chimera S"
+          }
+        },
+        {
+          "name": {
+            "cs": "Chimera M",
+            "en": "Chimera M"
+          }
+        },
+        {
+          "name": {
+            "cs": "GRID for Chimera M",
+            "en": "GRID for Chimera M"
+          }
+        },
+        {
+          "name": {
+            "cs": "Chimera L",
+            "en": "Chimera L"
+          }
+        },
+        {
+          "name": {
+            "cs": "GRID for Chimera L",
+            "en": "GRID for Chimera L"
+          }
+        },
+        {
+          "name": {
+            "cs": "Elinchrom Rotalux 100cm with Profoto speedring",
+            "en": "Elinchrom Rotalux 100cm with Profoto speedring"
+          }
+        },
+        {
+          "name": {
+            "cs": "Elinchrom Octabank 150cm",
+            "en": "Elinchrom Octabank 150cm"
+          }
+        },
+        {
+          "name": {
+            "cs": "Elinchrom Livemotive indirect 190cm",
+            "en": "Elinchrom Livemotive indirect 190cm"
+          }
+        },
+        {
+          "name": {
+            "cs": "Photek S with sock",
+            "en": "Photek S with sock"
+          }
+        },
+        {
+          "name": {
+            "cs": "Photek M with sock",
+            "en": "Photek M with sock"
+          }
+        },
+        {
+          "name": {
+            "cs": "Photek L with sock",
+            "en": "Photek L with sock"
+          }
+        },
+        {
+          "name": {
+            "cs": "Umbrella S silver / white / transparent",
+            "en": "Umbrella S silver / white / transparent"
+          }
+        },
+        {
+          "name": {
+            "cs": "Umbrella M white",
+            "en": "Umbrella M white"
+          }
+        },
+        {
+          "name": {
+            "cs": "Umbrella L silver / white / transparent",
+            "en": "Umbrella L silver / white / transparent"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto Umbrella XL",
+            "en": "Profoto Umbrella XL"
+          }
+        },
+        {
+          "name": {
+            "cs": "Diffusion for umbrella M, L, XL",
+            "en": "Diffusion for umbrella M, L, XL"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto Softlight / Beauty dish white",
+            "en": "Profoto Softlight / Beauty dish white"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto grid / honeycomb for beauty dish",
+            "en": "Profoto grid / honeycomb for beauty dish"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto diffusion for beauty dish",
+            "en": "Profoto diffusion for beauty dish"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto Magnum reflector",
+            "en": "Profoto Magnum reflector"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto Telezoom reflector",
+            "en": "Profoto Telezoom reflector"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto honeycomb for Magnum or Telezoom reflector",
+            "en": "Profoto honeycomb for Magnum or Telezoom reflector"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto grid / honeycomb set 5, 10, 20° + holder",
+            "en": "Profoto grid / honeycomb set 5, 10, 20° + holder"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto Narrow Beam reflector",
+            "en": "Profoto Narrow Beam reflector"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto snoot",
+            "en": "Profoto snoot"
+          }
+        },
+        {
+          "name": {
+            "cs": "Cine reflector kit",
+            "en": "Cine reflector kit"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto barn doors (for Profoto zoom reflector)",
+            "en": "Profoto barn doors (for Profoto zoom reflector)"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto Hard Box",
+            "en": "Profoto Hard Box"
+          }
+        },
+        {
+          "name": {
+            "cs": "Ball 1,6m / 6ft",
+            "en": "Ball 1,6m / 6ft"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto Globe 60cm",
+            "en": "Profoto Globe 60cm"
+          }
+        },
+        {
+          "name": {
+            "cs": "Disk reflector",
+            "en": "Disk reflector"
+          }
+        },
+        {
+          "name": {
+            "cs": "Pro Fresnel spot",
+            "en": "Pro Fresnel spot"
+          }
+        },
+        {
+          "name": {
+            "cs": "Small spot for Profoto head",
+            "en": "Small spot for Profoto head"
+          }
+        },
+        {
+          "name": {
+            "cs": "Standard reflector",
+            "en": "Standard reflector"
+          }
+        },
+        {
+          "name": {
+            "cs": "Speedring for softbox / Chimera",
+            "en": "Speedring for softbox / Chimera"
+          }
+        }
       ]
     },
     {
       "id": "giant-reflectors",
-      "name": { "cs": "Giant reflektory", "en": "Giant reflectors" },
+      "name": {
+        "cs": "Giant reflektory",
+        "en": "Giant reflectors"
+      },
       "thumb": "assets/img/rental/thumb/giant-reflectors.jpg",
       "items": [
-        { "name": "Profoto GIANT 6' Reflector 180" },
-        { "name": "Profoto GIANT 6' Reflector Diffusor 180" },
-        { "name": "Profoto GIANT 7' Reflector 210" },
-        { "name": "Profoto GIANT 7' Reflector Diffusor 210" },
-        { "name": "Profoto GIANT 8' Reflector 240" },
-        { "name": "Profoto GIANT 8' Reflector Diffusor 240" },
-        { "name": "Profoto GIANT 10' Reflector and 1-stop silk 300" },
-        { "name": "Broncolor Para 88cm (diffusion, Profoto adapter, grid)" },
-        { "name": "Broncolor Para 133cm (diffusion, Profoto adapter, grid)" },
-        { "name": "Broncolor Para 177cm (diffusion, Profoto adapter, grid)" }
+        {
+          "name": {
+            "cs": "Profoto GIANT 6' Reflector 180",
+            "en": "Profoto GIANT 6' Reflector 180"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto GIANT 6' Reflector Diffusor 180",
+            "en": "Profoto GIANT 6' Reflector Diffusor 180"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto GIANT 7' Reflector 210",
+            "en": "Profoto GIANT 7' Reflector 210"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto GIANT 7' Reflector Diffusor 210",
+            "en": "Profoto GIANT 7' Reflector Diffusor 210"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto GIANT 8' Reflector 240",
+            "en": "Profoto GIANT 8' Reflector 240"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto GIANT 8' Reflector Diffusor 240",
+            "en": "Profoto GIANT 8' Reflector Diffusor 240"
+          }
+        },
+        {
+          "name": {
+            "cs": "Profoto GIANT 10' Reflector and 1-stop silk 300",
+            "en": "Profoto GIANT 10' Reflector and 1-stop silk 300"
+          }
+        },
+        {
+          "name": {
+            "cs": "Broncolor Para 88cm (diffusion, Profoto adapter, grid)",
+            "en": "Broncolor Para 88cm (diffusion, Profoto adapter, grid)"
+          }
+        },
+        {
+          "name": {
+            "cs": "Broncolor Para 133cm (diffusion, Profoto adapter, grid)",
+            "en": "Broncolor Para 133cm (diffusion, Profoto adapter, grid)"
+          }
+        },
+        {
+          "name": {
+            "cs": "Broncolor Para 177cm (diffusion, Profoto adapter, grid)",
+            "en": "Broncolor Para 177cm (diffusion, Profoto adapter, grid)"
+          }
+        }
       ]
     },
     {
       "id": "boards",
-      "name": { "cs": "Panely, vlajky, butterfly", "en": "Boards, flags & butterflies" },
+      "name": {
+        "cs": "Panely, vlajky, butterfly",
+        "en": "Boards, flags & butterflies"
+      },
       "thumb": "assets/img/rental/thumb/boards.jpg",
       "items": [
-        { "name": "Lastolite" },
-        { "name": "Polyboard 2x2' silver / white" },
-        { "name": "Polyboard 4x4' silver / white" },
-        { "name": "Polyboard 4x8' white / black" },
-        { "name": "Polyholder" },
-        { "name": "Net" },
-        { "name": "Black flag" },
-        { "name": "Alu frame 4x4' 1/8, 1/2" },
-        { "name": "Floppy flag 2x2'" },
-        { "name": "Floppy flag 4x4'" },
-        { "name": "California sun bounce PRO 6x4'" },
-        { "name": "California sun bounce BIG 6x8'" },
-        { "name": "California sun swatter" },
-        { "name": "Black velvet" },
-        { "name": "Cucoloris" },
-        { "name": "Butterfly frame 6x6'" },
-        { "name": "Butterfly textile 6x6'" },
-        { "name": "Butterfly frame 8x8'" },
-        { "name": "Butterfly textile 8x8' 1/1 silk" },
-        { "name": "Butterfly frame 12x12'" },
-        { "name": "Butterfly textile 12x12' UB, silk 1/1, 1/2, 1/4, black solid" },
-        { "name": "Butterfly frame 20x20'" },
-        { "name": "Butterfly textile 20x20'" },
-        { "name": "ALU speed rail 12ft" },
-        { "name": "ALU speed rail 6ft" },
-        { "name": "Alu bar / scaff pole 15ft" }
+        {
+          "name": {
+            "cs": "Lastolite",
+            "en": "Lastolite"
+          }
+        },
+        {
+          "name": {
+            "cs": "Polyboard 2x2' silver / white",
+            "en": "Polyboard 2x2' silver / white"
+          }
+        },
+        {
+          "name": {
+            "cs": "Polyboard 4x4' silver / white",
+            "en": "Polyboard 4x4' silver / white"
+          }
+        },
+        {
+          "name": {
+            "cs": "Polyboard 4x8' white / black",
+            "en": "Polyboard 4x8' white / black"
+          }
+        },
+        {
+          "name": {
+            "cs": "Polyholder",
+            "en": "Polyholder"
+          }
+        },
+        {
+          "name": {
+            "cs": "Net",
+            "en": "Net"
+          }
+        },
+        {
+          "name": {
+            "cs": "Black flag",
+            "en": "Black flag"
+          }
+        },
+        {
+          "name": {
+            "cs": "Alu frame 4x4' 1/8, 1/2",
+            "en": "Alu frame 4x4' 1/8, 1/2"
+          }
+        },
+        {
+          "name": {
+            "cs": "Floppy flag 2x2'",
+            "en": "Floppy flag 2x2'"
+          }
+        },
+        {
+          "name": {
+            "cs": "Floppy flag 4x4'",
+            "en": "Floppy flag 4x4'"
+          }
+        },
+        {
+          "name": {
+            "cs": "California sun bounce PRO 6x4'",
+            "en": "California sun bounce PRO 6x4'"
+          }
+        },
+        {
+          "name": {
+            "cs": "California sun bounce BIG 6x8'",
+            "en": "California sun bounce BIG 6x8'"
+          }
+        },
+        {
+          "name": {
+            "cs": "California sun swatter",
+            "en": "California sun swatter"
+          }
+        },
+        {
+          "name": {
+            "cs": "Black velvet",
+            "en": "Black velvet"
+          }
+        },
+        {
+          "name": {
+            "cs": "Cucoloris",
+            "en": "Cucoloris"
+          }
+        },
+        {
+          "name": {
+            "cs": "Butterfly frame 6x6'",
+            "en": "Butterfly frame 6x6'"
+          }
+        },
+        {
+          "name": {
+            "cs": "Butterfly textile 6x6'",
+            "en": "Butterfly textile 6x6'"
+          }
+        },
+        {
+          "name": {
+            "cs": "Butterfly frame 8x8'",
+            "en": "Butterfly frame 8x8'"
+          }
+        },
+        {
+          "name": {
+            "cs": "Butterfly textile 8x8' 1/1 silk",
+            "en": "Butterfly textile 8x8' 1/1 silk"
+          }
+        },
+        {
+          "name": {
+            "cs": "Butterfly frame 12x12'",
+            "en": "Butterfly frame 12x12'"
+          }
+        },
+        {
+          "name": {
+            "cs": "Butterfly textile 12x12' UB, silk 1/1, 1/2, 1/4, black solid",
+            "en": "Butterfly textile 12x12' UB, silk 1/1, 1/2, 1/4, black solid"
+          }
+        },
+        {
+          "name": {
+            "cs": "Butterfly frame 20x20'",
+            "en": "Butterfly frame 20x20'"
+          }
+        },
+        {
+          "name": {
+            "cs": "Butterfly textile 20x20'",
+            "en": "Butterfly textile 20x20'"
+          }
+        },
+        {
+          "name": {
+            "cs": "ALU speed rail 12ft",
+            "en": "ALU speed rail 12ft"
+          }
+        },
+        {
+          "name": {
+            "cs": "ALU speed rail 6ft",
+            "en": "ALU speed rail 6ft"
+          }
+        },
+        {
+          "name": {
+            "cs": "Alu bar / scaff pole 15ft",
+            "en": "Alu bar / scaff pole 15ft"
+          }
+        }
       ]
     },
     {
       "id": "cameras-canon",
-      "name": { "cs": "Fotoaparáty Canon", "en": "Canon cameras" },
+      "name": {
+        "cs": "Fotoaparáty Canon",
+        "en": "Canon cameras"
+      },
       "thumb": "assets/img/rental/thumb/cameras-canon.jpg",
       "items": [
-        { "name": "Canon body 5D Mark III" },
-        { "name": "Canon body 5D Mark IV / DSR / DS" },
-        { "name": "Canon body R5" },
-        { "name": "Lens Canon 24mm" },
-        { "name": "Lens Canon 35mm f1.4" },
-        { "name": "Lens Canon 16-35mm" },
-        { "name": "Lens Canon 50mm f1.2" },
-        { "name": "Lens Canon 85mm f1.2" },
-        { "name": "Lens Canon 100mm Macro f2.8L" },
-        { "name": "Lens Canon 24-70mm f2.8 Mk II" },
-        { "name": "Lens Canon 70-200mm f2.8" },
-        { "name": "Lens Canon 135mm" },
-        { "name": "Lens Canon Tilt-Shift 24mm" },
-        { "name": "Lens Canon Tilt-Shift 45mm" },
-        { "name": "Lens Canon Tilt-Shift 17mm" },
-        { "name": "Extender 1.4x" },
-        { "name": "Extra battery for Canon" },
-        { "name": "Battery charger Canon" },
-        { "name": "Card CF 32GB" },
-        { "name": "Card CF 64GB" },
-        { "name": "Canon Speedlite 600EX" },
-        { "name": "USB-C cable" },
-        { "name": "Canon multi power battery pack" },
-        { "name": "Card reader" },
-        { "name": "Polarizing filter" },
-        { "name": "Variable ND filter (nano) 82mm" },
-        { "name": "Adapter EF–EOS R" },
-        { "sub": "Lens RF" },
-        { "name": "Canon RF 15-35mm f/2.8L IS USM" },
-        { "name": "Canon RF 28-70mm f/2L USM" },
-        { "name": "Canon RF 70-200mm f/2.8L IS USM" },
-        { "name": "Canon RF 50mm f/1.2L USM" },
-        { "name": "Canon RF 85mm f/1.2L USM DS" },
-        { "name": "Canon RF 100mm f/2.8L IS USM Macro" }
+        {
+          "name": {
+            "cs": "Canon body 5D Mark III",
+            "en": "Canon body 5D Mark III"
+          }
+        },
+        {
+          "name": {
+            "cs": "Canon body 5D Mark IV / DSR / DS",
+            "en": "Canon body 5D Mark IV / DSR / DS"
+          }
+        },
+        {
+          "name": {
+            "cs": "Canon body R5",
+            "en": "Canon body R5"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lens Canon 24mm",
+            "en": "Lens Canon 24mm"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lens Canon 35mm f1.4",
+            "en": "Lens Canon 35mm f1.4"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lens Canon 16-35mm",
+            "en": "Lens Canon 16-35mm"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lens Canon 50mm f1.2",
+            "en": "Lens Canon 50mm f1.2"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lens Canon 85mm f1.2",
+            "en": "Lens Canon 85mm f1.2"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lens Canon 100mm Macro f2.8L",
+            "en": "Lens Canon 100mm Macro f2.8L"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lens Canon 24-70mm f2.8 Mk II",
+            "en": "Lens Canon 24-70mm f2.8 Mk II"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lens Canon 70-200mm f2.8",
+            "en": "Lens Canon 70-200mm f2.8"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lens Canon 135mm",
+            "en": "Lens Canon 135mm"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lens Canon Tilt-Shift 24mm",
+            "en": "Lens Canon Tilt-Shift 24mm"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lens Canon Tilt-Shift 45mm",
+            "en": "Lens Canon Tilt-Shift 45mm"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lens Canon Tilt-Shift 17mm",
+            "en": "Lens Canon Tilt-Shift 17mm"
+          }
+        },
+        {
+          "name": {
+            "cs": "Extender 1.4x",
+            "en": "Extender 1.4x"
+          }
+        },
+        {
+          "name": {
+            "cs": "Extra battery for Canon",
+            "en": "Extra battery for Canon"
+          }
+        },
+        {
+          "name": {
+            "cs": "Battery charger Canon",
+            "en": "Battery charger Canon"
+          }
+        },
+        {
+          "name": {
+            "cs": "Card CF 32GB",
+            "en": "Card CF 32GB"
+          }
+        },
+        {
+          "name": {
+            "cs": "Card CF 64GB",
+            "en": "Card CF 64GB"
+          }
+        },
+        {
+          "name": {
+            "cs": "Canon Speedlite 600EX",
+            "en": "Canon Speedlite 600EX"
+          }
+        },
+        {
+          "name": {
+            "cs": "USB-C cable",
+            "en": "USB-C cable"
+          }
+        },
+        {
+          "name": {
+            "cs": "Canon multi power battery pack",
+            "en": "Canon multi power battery pack"
+          }
+        },
+        {
+          "name": {
+            "cs": "Card reader",
+            "en": "Card reader"
+          }
+        },
+        {
+          "name": {
+            "cs": "Polarizing filter",
+            "en": "Polarizing filter"
+          }
+        },
+        {
+          "name": {
+            "cs": "Variable ND filter (nano) 82mm",
+            "en": "Variable ND filter (nano) 82mm"
+          }
+        },
+        {
+          "name": {
+            "cs": "Adapter EF–EOS R",
+            "en": "Adapter EF–EOS R"
+          }
+        },
+        {
+          "sub": {
+            "cs": "Lens RF",
+            "en": "Lens RF"
+          }
+        },
+        {
+          "name": {
+            "cs": "Canon RF 15-35mm f/2.8L IS USM",
+            "en": "Canon RF 15-35mm f/2.8L IS USM"
+          }
+        },
+        {
+          "name": {
+            "cs": "Canon RF 28-70mm f/2L USM",
+            "en": "Canon RF 28-70mm f/2L USM"
+          }
+        },
+        {
+          "name": {
+            "cs": "Canon RF 70-200mm f/2.8L IS USM",
+            "en": "Canon RF 70-200mm f/2.8L IS USM"
+          }
+        },
+        {
+          "name": {
+            "cs": "Canon RF 50mm f/1.2L USM",
+            "en": "Canon RF 50mm f/1.2L USM"
+          }
+        },
+        {
+          "name": {
+            "cs": "Canon RF 85mm f/1.2L USM DS",
+            "en": "Canon RF 85mm f/1.2L USM DS"
+          }
+        },
+        {
+          "name": {
+            "cs": "Canon RF 100mm f/2.8L IS USM Macro",
+            "en": "Canon RF 100mm f/2.8L IS USM Macro"
+          }
+        }
       ]
     },
     {
       "id": "cameras-nikon-fuji",
-      "name": { "cs": "Fotoaparáty Nikon a Fuji", "en": "Nikon & Fuji cameras" },
+      "name": {
+        "cs": "Fotoaparáty Nikon a Fuji",
+        "en": "Nikon & Fuji cameras"
+      },
       "thumb": "assets/img/rental/thumb/cameras-nikon-fuji.jpg",
       "items": [
-        { "name": "Nikon D850" },
-        { "name": "Lens Nikkor 14-24mm f2.8" },
-        { "name": "Lens Nikkor 24-70mm f2.8" },
-        { "name": "Lens Nikkor 35mm f1.4" },
-        { "name": "Lens Nikkor 50mm" },
-        { "name": "Lens Nikkor 85mm f1.4G" },
-        { "name": "Lens Nikkor 70-200mm f2.8" },
-        { "name": "Lens Nikkor 105mm f2.8 Macro" },
-        { "name": "Lens Nikkor 45mm Tilt-Shift" },
-        { "name": "Extra battery for Nikon" },
-        { "name": "Nikon multi power battery pack" },
-        { "name": "Card CF 32GB" },
-        { "name": "Card CF 64GB" },
-        { "name": "Card reader with USB 3" },
-        { "sub": "Camera Fuji GFX 100S" },
-        { "name": "Camera Fuji GFX 100S" },
-        { "name": "Lens Fuji 120mm f/4" },
-        { "name": "Lens Fuji 32-64mm f/4" },
-        { "name": "Lens Fuji 80mm f/1.7" },
-        { "name": "Lens Fuji 45mm f/2.8" },
-        { "name": "Card XQD (Nikon)" },
-        { "name": "Card CFexpress 128GB" },
-        { "name": "Card SDXC 128GB" }
+        {
+          "name": {
+            "cs": "Nikon D850",
+            "en": "Nikon D850"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lens Nikkor 14-24mm f2.8",
+            "en": "Lens Nikkor 14-24mm f2.8"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lens Nikkor 24-70mm f2.8",
+            "en": "Lens Nikkor 24-70mm f2.8"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lens Nikkor 35mm f1.4",
+            "en": "Lens Nikkor 35mm f1.4"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lens Nikkor 50mm",
+            "en": "Lens Nikkor 50mm"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lens Nikkor 85mm f1.4G",
+            "en": "Lens Nikkor 85mm f1.4G"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lens Nikkor 70-200mm f2.8",
+            "en": "Lens Nikkor 70-200mm f2.8"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lens Nikkor 105mm f2.8 Macro",
+            "en": "Lens Nikkor 105mm f2.8 Macro"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lens Nikkor 45mm Tilt-Shift",
+            "en": "Lens Nikkor 45mm Tilt-Shift"
+          }
+        },
+        {
+          "name": {
+            "cs": "Extra battery for Nikon",
+            "en": "Extra battery for Nikon"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nikon multi power battery pack",
+            "en": "Nikon multi power battery pack"
+          }
+        },
+        {
+          "name": {
+            "cs": "Card CF 32GB",
+            "en": "Card CF 32GB"
+          }
+        },
+        {
+          "name": {
+            "cs": "Card CF 64GB",
+            "en": "Card CF 64GB"
+          }
+        },
+        {
+          "name": {
+            "cs": "Card reader with USB 3",
+            "en": "Card reader with USB 3"
+          }
+        },
+        {
+          "sub": {
+            "cs": "Camera Fuji GFX 100S",
+            "en": "Camera Fuji GFX 100S"
+          }
+        },
+        {
+          "name": {
+            "cs": "Camera Fuji GFX 100S",
+            "en": "Camera Fuji GFX 100S"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lens Fuji 120mm f/4",
+            "en": "Lens Fuji 120mm f/4"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lens Fuji 32-64mm f/4",
+            "en": "Lens Fuji 32-64mm f/4"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lens Fuji 80mm f/1.7",
+            "en": "Lens Fuji 80mm f/1.7"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lens Fuji 45mm f/2.8",
+            "en": "Lens Fuji 45mm f/2.8"
+          }
+        },
+        {
+          "name": {
+            "cs": "Card XQD (Nikon)",
+            "en": "Card XQD (Nikon)"
+          }
+        },
+        {
+          "name": {
+            "cs": "Card CFexpress 128GB",
+            "en": "Card CFexpress 128GB"
+          }
+        },
+        {
+          "name": {
+            "cs": "Card SDXC 128GB",
+            "en": "Card SDXC 128GB"
+          }
+        }
       ]
     },
     {
       "id": "digital-equipment",
-      "name": { "cs": "Digitální technika", "en": "Digital equipment" },
+      "name": {
+        "cs": "Digitální technika",
+        "en": "Digital equipment"
+      },
       "thumb": "assets/img/rental/thumb/digital-equipment.jpg",
       "items": [
-        { "name": "Magliner — Adicam digi cart" },
-        { "name": "MacBook Pro M1 / M2" },
-        { "name": "Monitor Eizo 27\"" },
-        { "name": "Monitor Eizo CG2420" },
-        { "name": "Keyboard + mouse" },
-        { "name": "Printer Canon Selphy CP800" },
-        { "name": "iWork case" },
-        { "name": "Deska pod počítač" },
-        { "name": "Seaport Case" },
-        { "name": "Black box for 17\" laptop / monitor" },
-        { "name": "Variable power cable 0,5–1m" },
-        { "name": "UPS backup" },
-        { "name": "Wireless HDMI Hollyland 400S Pro" },
-        { "name": "USB-C cable" },
-        { "name": "HDMI cable 10m" }
+        {
+          "name": {
+            "cs": "Magliner — Adicam digi cart",
+            "en": "Magliner — Adicam digi cart"
+          }
+        },
+        {
+          "name": {
+            "cs": "MacBook Pro M1 / M2",
+            "en": "MacBook Pro M1 / M2"
+          }
+        },
+        {
+          "name": {
+            "cs": "Monitor Eizo 27\"",
+            "en": "Monitor Eizo 27\""
+          }
+        },
+        {
+          "name": {
+            "cs": "Monitor Eizo CG2420",
+            "en": "Monitor Eizo CG2420"
+          }
+        },
+        {
+          "name": {
+            "cs": "Keyboard + mouse",
+            "en": "Keyboard + mouse"
+          }
+        },
+        {
+          "name": {
+            "cs": "Printer Canon Selphy CP800",
+            "en": "Printer Canon Selphy CP800"
+          }
+        },
+        {
+          "name": {
+            "cs": "iWork case",
+            "en": "iWork case"
+          }
+        },
+        {
+          "name": {
+            "cs": "Deska pod počítač",
+            "en": "Laptop stand"
+          }
+        },
+        {
+          "name": {
+            "cs": "Seaport Case",
+            "en": "Seaport Case"
+          }
+        },
+        {
+          "name": {
+            "cs": "Black box for 17\" laptop / monitor",
+            "en": "Black box for 17\" laptop / monitor"
+          }
+        },
+        {
+          "name": {
+            "cs": "Variable power cable 0,5–1m",
+            "en": "Variable power cable 0,5–1m"
+          }
+        },
+        {
+          "name": {
+            "cs": "UPS backup",
+            "en": "UPS backup"
+          }
+        },
+        {
+          "name": {
+            "cs": "Wireless HDMI Hollyland 400S Pro",
+            "en": "Wireless HDMI Hollyland 400S Pro"
+          }
+        },
+        {
+          "name": {
+            "cs": "USB-C cable",
+            "en": "USB-C cable"
+          }
+        },
+        {
+          "name": {
+            "cs": "HDMI cable 10m",
+            "en": "HDMI cable 10m"
+          }
+        }
       ]
     },
     {
       "id": "stands",
-      "name": { "cs": "Stojany", "en": "Stands" },
+      "name": {
+        "cs": "Stojany",
+        "en": "Stands"
+      },
       "thumb": "assets/img/rental/thumb/stands.jpg",
       "items": [
-        { "name": "Super wind-up stand" },
-        { "name": "C-stand complete 10x40 and 3x20" },
-        { "name": "High roller stand" },
-        { "name": "Medium roller stand" },
-        { "name": "Combo stand" },
-        { "name": "Pup stand" },
-        { "name": "Lightweight alu stand black (Manfrotto)" },
-        { "name": "Low boy stand" },
-        { "name": "Low boy roller stand" },
-        { "name": "Double wind-up stand (max. 3,70m)" },
-        { "name": "Base plate stand 28mm" },
-        { "name": "Base plate stand 14mm pin" },
-        { "name": "Baby stand" },
-        { "name": "Strato stand" },
-        { "name": "Superboom" },
-        { "name": "Mega boom" },
-        { "name": "Baby boom" },
-        { "name": "Extension for stand" },
-        { "name": "Boom tripod stand" },
-        { "name": "Gitzo tripod (big)" },
-        { "name": "Gitzo tripod (medium)" },
-        { "name": "Manfrotto tripod" },
-        { "name": "Head for tripod (Gitzo, Manfrotto)" },
-        { "name": "Spider stand" },
-        { "name": "Autopole" },
-        { "name": "Kit for paper background + stand" }
+        {
+          "name": {
+            "cs": "Super wind-up stand",
+            "en": "Super wind-up stand"
+          }
+        },
+        {
+          "name": {
+            "cs": "C-stand complete 10x40 and 3x20",
+            "en": "C-stand complete 10x40 and 3x20"
+          }
+        },
+        {
+          "name": {
+            "cs": "High roller stand",
+            "en": "High roller stand"
+          }
+        },
+        {
+          "name": {
+            "cs": "Medium roller stand",
+            "en": "Medium roller stand"
+          }
+        },
+        {
+          "name": {
+            "cs": "Combo stand",
+            "en": "Combo stand"
+          }
+        },
+        {
+          "name": {
+            "cs": "Pup stand",
+            "en": "Pup stand"
+          }
+        },
+        {
+          "name": {
+            "cs": "Lightweight alu stand black (Manfrotto)",
+            "en": "Lightweight alu stand black (Manfrotto)"
+          }
+        },
+        {
+          "name": {
+            "cs": "Low boy stand",
+            "en": "Low boy stand"
+          }
+        },
+        {
+          "name": {
+            "cs": "Low boy roller stand",
+            "en": "Low boy roller stand"
+          }
+        },
+        {
+          "name": {
+            "cs": "Double wind-up stand (max. 3,70m)",
+            "en": "Double wind-up stand (max. 3,70m)"
+          }
+        },
+        {
+          "name": {
+            "cs": "Base plate stand 28mm",
+            "en": "Base plate stand 28mm"
+          }
+        },
+        {
+          "name": {
+            "cs": "Base plate stand 14mm pin",
+            "en": "Base plate stand 14mm pin"
+          }
+        },
+        {
+          "name": {
+            "cs": "Baby stand",
+            "en": "Baby stand"
+          }
+        },
+        {
+          "name": {
+            "cs": "Strato stand",
+            "en": "Strato stand"
+          }
+        },
+        {
+          "name": {
+            "cs": "Superboom",
+            "en": "Superboom"
+          }
+        },
+        {
+          "name": {
+            "cs": "Mega boom",
+            "en": "Mega boom"
+          }
+        },
+        {
+          "name": {
+            "cs": "Baby boom",
+            "en": "Baby boom"
+          }
+        },
+        {
+          "name": {
+            "cs": "Extension for stand",
+            "en": "Extension for stand"
+          }
+        },
+        {
+          "name": {
+            "cs": "Boom tripod stand",
+            "en": "Boom tripod stand"
+          }
+        },
+        {
+          "name": {
+            "cs": "Gitzo tripod (big)",
+            "en": "Gitzo tripod (big)"
+          }
+        },
+        {
+          "name": {
+            "cs": "Gitzo tripod (medium)",
+            "en": "Gitzo tripod (medium)"
+          }
+        },
+        {
+          "name": {
+            "cs": "Manfrotto tripod",
+            "en": "Manfrotto tripod"
+          }
+        },
+        {
+          "name": {
+            "cs": "Head for tripod (Gitzo, Manfrotto)",
+            "en": "Head for tripod (Gitzo, Manfrotto)"
+          }
+        },
+        {
+          "name": {
+            "cs": "Spider stand",
+            "en": "Spider stand"
+          }
+        },
+        {
+          "name": {
+            "cs": "Autopole",
+            "en": "Autopole"
+          }
+        },
+        {
+          "name": {
+            "cs": "Kit for paper background + stand",
+            "en": "Kit for paper background + stand"
+          }
+        }
       ]
     },
     {
       "id": "clamps-grip",
-      "name": { "cs": "Úchyty a grip", "en": "Clamps & grip" },
+      "name": {
+        "cs": "Úchyty a grip",
+        "en": "Clamps & grip"
+      },
       "thumb": "assets/img/rental/thumb/clamps-grip.jpg",
       "items": [
-        { "name": "Gobo head 1/2" },
-        { "name": "Gobo head 4-way" },
-        { "name": "Clamp — pelican" },
-        { "name": "Clamp — Cardellini" },
-        { "name": "Big Ben clamp" },
-        { "name": "Barrel clamp" },
-        { "name": "Super clamp" },
-        { "name": "Magic arm" },
-        { "name": "J hook" },
-        { "name": "A clamp — large" },
-        { "name": "A clamp — medium" },
-        { "name": "A clamp — small" },
-        { "name": "Pagannini clamp" },
-        { "name": "Applebox 1/2" },
-        { "name": "Applebox full" },
-        { "name": "Applebox 1/4 — pancake" },
-        { "name": "Applebox set" },
-        { "name": "Hokry set" },
-        { "name": "Pup adapter" },
-        { "name": "Big Ben clamp — truss" },
-        { "name": "Offset" },
-        { "name": "Spigot" },
-        { "sub": "Doplňky" },
-        { "name": "Ladder 7ft" },
-        { "name": "Reel FX Fan 2" },
-        { "name": "Fog machine" },
-        { "name": "Tennis balls" },
-        { "name": "Beach cart" },
-        { "name": "Magliner" },
-        { "name": "Samet 3x3m" },
-        { "name": "Tras 3m" }
+        {
+          "name": {
+            "cs": "Gobo head 1/2",
+            "en": "Gobo head 1/2"
+          }
+        },
+        {
+          "name": {
+            "cs": "Gobo head 4-way",
+            "en": "Gobo head 4-way"
+          }
+        },
+        {
+          "name": {
+            "cs": "Clamp — pelican",
+            "en": "Clamp — pelican"
+          }
+        },
+        {
+          "name": {
+            "cs": "Clamp — Cardellini",
+            "en": "Clamp — Cardellini"
+          }
+        },
+        {
+          "name": {
+            "cs": "Big Ben clamp",
+            "en": "Big Ben clamp"
+          }
+        },
+        {
+          "name": {
+            "cs": "Barrel clamp",
+            "en": "Barrel clamp"
+          }
+        },
+        {
+          "name": {
+            "cs": "Super clamp",
+            "en": "Super clamp"
+          }
+        },
+        {
+          "name": {
+            "cs": "Magic arm",
+            "en": "Magic arm"
+          }
+        },
+        {
+          "name": {
+            "cs": "J hook",
+            "en": "J hook"
+          }
+        },
+        {
+          "name": {
+            "cs": "A clamp — large",
+            "en": "A clamp — large"
+          }
+        },
+        {
+          "name": {
+            "cs": "A clamp — medium",
+            "en": "A clamp — medium"
+          }
+        },
+        {
+          "name": {
+            "cs": "A clamp — small",
+            "en": "A clamp — small"
+          }
+        },
+        {
+          "name": {
+            "cs": "Pagannini clamp",
+            "en": "Pagannini clamp"
+          }
+        },
+        {
+          "name": {
+            "cs": "Applebox 1/2",
+            "en": "Applebox 1/2"
+          }
+        },
+        {
+          "name": {
+            "cs": "Applebox full",
+            "en": "Applebox full"
+          }
+        },
+        {
+          "name": {
+            "cs": "Applebox 1/4 — pancake",
+            "en": "Applebox 1/4 — pancake"
+          }
+        },
+        {
+          "name": {
+            "cs": "Applebox set",
+            "en": "Applebox set"
+          }
+        },
+        {
+          "name": {
+            "cs": "Hokry set",
+            "en": "Hokry set"
+          }
+        },
+        {
+          "name": {
+            "cs": "Pup adapter",
+            "en": "Pup adapter"
+          }
+        },
+        {
+          "name": {
+            "cs": "Big Ben clamp — truss",
+            "en": "Big Ben clamp — truss"
+          }
+        },
+        {
+          "name": {
+            "cs": "Offset",
+            "en": "Offset"
+          }
+        },
+        {
+          "name": {
+            "cs": "Spigot",
+            "en": "Spigot"
+          }
+        },
+        {
+          "sub": {
+            "cs": "Doplňky",
+            "en": "Accessories"
+          }
+        },
+        {
+          "name": {
+            "cs": "Ladder 7ft",
+            "en": "Ladder 7ft"
+          }
+        },
+        {
+          "name": {
+            "cs": "Reel FX Fan 2",
+            "en": "Reel FX Fan 2"
+          }
+        },
+        {
+          "name": {
+            "cs": "Fog machine",
+            "en": "Fog machine"
+          }
+        },
+        {
+          "name": {
+            "cs": "Tennis balls",
+            "en": "Tennis balls"
+          }
+        },
+        {
+          "name": {
+            "cs": "Beach cart",
+            "en": "Beach cart"
+          }
+        },
+        {
+          "name": {
+            "cs": "Magliner",
+            "en": "Magliner"
+          }
+        },
+        {
+          "name": {
+            "cs": "Samet 3x3m",
+            "en": "Velvet 3x3m"
+          }
+        },
+        {
+          "name": {
+            "cs": "Tras 3m",
+            "en": "Tras 3m"
+          }
+        }
       ]
     },
     {
       "id": "power-equipment",
-      "name": { "cs": "Napájení", "en": "Power equipment" },
+      "name": {
+        "cs": "Napájení",
+        "en": "Power equipment"
+      },
       "thumb": "assets/img/rental/thumb/power-equipment.jpg",
       "items": [
-        { "name": "Cable 16A/230V/10m" },
-        { "name": "Cable 16A/230V/15m" },
-        { "name": "Cable 32A/400V/10m CEE" },
-        { "name": "Cable 32A/230V/10m" },
-        { "name": "Cable 63A/400V/10m CEE" },
-        { "name": "Cable 125A/400V/5m" },
-        { "name": "Adapter 63A" },
-        { "name": "Adapter 32A (4-pin) → 32A (5-pin)" },
-        { "name": "Power strip 16A/230V" },
-        { "name": "Stage box 32A/230V CEE" },
-        { "name": "Stage box 32A/400V CEE" },
-        { "name": "Stage box 63A/400V CEE" },
-        { "name": "Stage box 125A/400V" },
-        { "name": "Power generator Honda 2kW" },
-        { "name": "Power generator Honda 3kW" },
-        { "name": "Power generator Honda 7kW" },
-        { "name": "Sandbag" },
-        { "name": "Battery source EcoFlow River 370Wh" },
-        { "name": "Battery source EcoFlow Delta 1300" }
+        {
+          "name": {
+            "cs": "Cable 16A/230V/10m",
+            "en": "Cable 16A/230V/10m"
+          }
+        },
+        {
+          "name": {
+            "cs": "Cable 16A/230V/15m",
+            "en": "Cable 16A/230V/15m"
+          }
+        },
+        {
+          "name": {
+            "cs": "Cable 32A/400V/10m CEE",
+            "en": "Cable 32A/400V/10m CEE"
+          }
+        },
+        {
+          "name": {
+            "cs": "Cable 32A/230V/10m",
+            "en": "Cable 32A/230V/10m"
+          }
+        },
+        {
+          "name": {
+            "cs": "Cable 63A/400V/10m CEE",
+            "en": "Cable 63A/400V/10m CEE"
+          }
+        },
+        {
+          "name": {
+            "cs": "Cable 125A/400V/5m",
+            "en": "Cable 125A/400V/5m"
+          }
+        },
+        {
+          "name": {
+            "cs": "Adapter 63A",
+            "en": "Adapter 63A"
+          }
+        },
+        {
+          "name": {
+            "cs": "Adapter 32A (4-pin) → 32A (5-pin)",
+            "en": "Adapter 32A (4-pin) → 32A (5-pin)"
+          }
+        },
+        {
+          "name": {
+            "cs": "Power strip 16A/230V",
+            "en": "Power strip 16A/230V"
+          }
+        },
+        {
+          "name": {
+            "cs": "Stage box 32A/230V CEE",
+            "en": "Stage box 32A/230V CEE"
+          }
+        },
+        {
+          "name": {
+            "cs": "Stage box 32A/400V CEE",
+            "en": "Stage box 32A/400V CEE"
+          }
+        },
+        {
+          "name": {
+            "cs": "Stage box 63A/400V CEE",
+            "en": "Stage box 63A/400V CEE"
+          }
+        },
+        {
+          "name": {
+            "cs": "Stage box 125A/400V",
+            "en": "Stage box 125A/400V"
+          }
+        },
+        {
+          "name": {
+            "cs": "Power generator Honda 2kW",
+            "en": "Power generator Honda 2kW"
+          }
+        },
+        {
+          "name": {
+            "cs": "Power generator Honda 3kW",
+            "en": "Power generator Honda 3kW"
+          }
+        },
+        {
+          "name": {
+            "cs": "Power generator Honda 7kW",
+            "en": "Power generator Honda 7kW"
+          }
+        },
+        {
+          "name": {
+            "cs": "Sandbag",
+            "en": "Sandbag"
+          }
+        },
+        {
+          "name": {
+            "cs": "Battery source EcoFlow River 370Wh",
+            "en": "Battery source EcoFlow River 370Wh"
+          }
+        },
+        {
+          "name": {
+            "cs": "Battery source EcoFlow Delta 1300",
+            "en": "Battery source EcoFlow Delta 1300"
+          }
+        }
       ]
     },
     {
       "id": "outdoor",
-      "name": { "cs": "Venkovní vybavení", "en": "Outdoor base accessories" },
+      "name": {
+        "cs": "Venkovní vybavení",
+        "en": "Outdoor base accessories"
+      },
       "thumb": "assets/img/rental/thumb/outdoor.jpg",
       "items": [
-        { "name": "Cable mat — big" },
-        { "name": "Easy-up tent 3x3m" },
-        { "name": "Ladder — big" },
-        { "name": "Ladder — small" },
-        { "name": "Chair" },
-        { "name": "Table" },
-        { "name": "Posing table" },
-        { "name": "Rolling stool" },
-        { "name": "Cable mat" }
+        {
+          "name": {
+            "cs": "Cable mat — big",
+            "en": "Cable mat — big"
+          }
+        },
+        {
+          "name": {
+            "cs": "Easy-up tent 3x3m",
+            "en": "Easy-up tent 3x3m"
+          }
+        },
+        {
+          "name": {
+            "cs": "Ladder — big",
+            "en": "Ladder — big"
+          }
+        },
+        {
+          "name": {
+            "cs": "Ladder — small",
+            "en": "Ladder — small"
+          }
+        },
+        {
+          "name": {
+            "cs": "Chair",
+            "en": "Chair"
+          }
+        },
+        {
+          "name": {
+            "cs": "Table",
+            "en": "Table"
+          }
+        },
+        {
+          "name": {
+            "cs": "Posing table",
+            "en": "Posing table"
+          }
+        },
+        {
+          "name": {
+            "cs": "Rolling stool",
+            "en": "Rolling stool"
+          }
+        },
+        {
+          "name": {
+            "cs": "Cable mat",
+            "en": "Cable mat"
+          }
+        }
       ]
     },
     {
       "id": "consumables",
-      "name": { "cs": "Spotřební materiál", "en": "Consumables" },
+      "name": {
+        "cs": "Spotřební materiál",
+        "en": "Consumables"
+      },
       "thumb": "assets/img/rental/thumb/consumables.jpg",
       "items": [
-        { "name": "Gels (CTO, CTB, ND, efektové, frost) 1/4 dif. — m" },
-        { "name": "Náplň do fog machine — l" },
-        { "name": "Gaffer tape white" },
-        { "name": "Gaffer tape black" },
-        { "name": "Black wrap — roll" },
-        { "name": "Bezpečnostní lanko" },
-        { "name": "Krosvorka" },
-        { "name": "Depron plate — strong" },
-        { "name": "Depron plate — thin" },
-        { "name": "Benzín do generátoru Honda — l" },
-        { "name": "Gels — roll" },
-        { "name": "Show card (white, black, silver)" },
-        { "name": "Paper background 2,75m white — dle skutečné spotřeby, m" },
-        { "name": "Paper background 3,60m grey — m" },
-        { "name": "Paper background 3,60m grey — ks" }
+        {
+          "name": {
+            "cs": "Gels (CTO, CTB, ND, efektové, frost) 1/4 dif. — m",
+            "en": "Gels (CTO, CTB, ND, effects, frost) 1/4 diff. — m"
+          }
+        },
+        {
+          "name": {
+            "cs": "Náplň do fog machine — l",
+            "en": "Fog machine fluid — l"
+          }
+        },
+        {
+          "name": {
+            "cs": "Gaffer tape white",
+            "en": "Gaffer tape white"
+          }
+        },
+        {
+          "name": {
+            "cs": "Gaffer tape black",
+            "en": "Gaffer tape black"
+          }
+        },
+        {
+          "name": {
+            "cs": "Black wrap — roll",
+            "en": "Black wrap — roll"
+          }
+        },
+        {
+          "name": {
+            "cs": "Bezpečnostní lanko",
+            "en": "Safety wire rope"
+          }
+        },
+        {
+          "name": {
+            "cs": "Krosvorka",
+            "en": "Krosvorka"
+          }
+        },
+        {
+          "name": {
+            "cs": "Depron plate — strong",
+            "en": "Depron plate — strong"
+          }
+        },
+        {
+          "name": {
+            "cs": "Depron plate — thin",
+            "en": "Depron plate — thin"
+          }
+        },
+        {
+          "name": {
+            "cs": "Benzín do generátoru Honda — l",
+            "en": "Petrol for Honda generator — l"
+          }
+        },
+        {
+          "name": {
+            "cs": "Gels — roll",
+            "en": "Gels — roll"
+          }
+        },
+        {
+          "name": {
+            "cs": "Show card (white, black, silver)",
+            "en": "Show card (white, black, silver)"
+          }
+        },
+        {
+          "name": {
+            "cs": "Paper background 2,75m white — dle skutečné spotřeby, m",
+            "en": "Paper background 2.75m white — per actual usage, m"
+          }
+        },
+        {
+          "name": {
+            "cs": "Paper background 3,60m grey — m",
+            "en": "Paper background 3,60m grey — m"
+          }
+        },
+        {
+          "name": {
+            "cs": "Paper background 3,60m grey — ks",
+            "en": "Paper background 3,60m grey — ks"
+          }
+        }
       ]
     },
     {
       "id": "transport",
-      "name": { "cs": "Doprava a asistence", "en": "Transport & assistance" },
+      "name": {
+        "cs": "Doprava a asistence",
+        "en": "Transport & assistance"
+      },
       "thumb": "assets/img/rental/thumb/transport.jpg",
       "items": [
-        { "name": "Photo assistant — 12h/den" },
-        { "name": "Digi assistant — 12h/den" },
-        { "name": "Driver fee — 12h/den" },
-        { "name": "Overtime — h" },
-        { "name": "Svoz / rozvoz po Praze" },
-        { "name": "Likvidace / příprava" },
-        { "name": "Pick up car (limit 100km)" },
-        { "name": "Delivery van — Sprinter (limit 100km)" },
-        { "name": "1km nad limit — pick up car" },
-        { "name": "1km nad limit — delivery van" }
+        {
+          "name": {
+            "cs": "Photo assistant — 12h/den",
+            "en": "Photo assistant — 12h/den"
+          }
+        },
+        {
+          "name": {
+            "cs": "Digi assistant — 12h/den",
+            "en": "Digi assistant — 12h/den"
+          }
+        },
+        {
+          "name": {
+            "cs": "Driver fee — 12h/den",
+            "en": "Driver fee — 12h/den"
+          }
+        },
+        {
+          "name": {
+            "cs": "Overtime — h",
+            "en": "Overtime — h"
+          }
+        },
+        {
+          "name": {
+            "cs": "Svoz / rozvoz po Praze",
+            "en": "Pickup / delivery in Prague"
+          }
+        },
+        {
+          "name": {
+            "cs": "Likvidace / příprava",
+            "en": "Disposal / preparation"
+          }
+        },
+        {
+          "name": {
+            "cs": "Pick up car (limit 100km)",
+            "en": "Pick up car (limit 100km)"
+          }
+        },
+        {
+          "name": {
+            "cs": "Delivery van — Sprinter (limit 100km)",
+            "en": "Delivery van — Sprinter (limit 100km)"
+          }
+        },
+        {
+          "name": {
+            "cs": "1km nad limit — pick up car",
+            "en": "1km nad limit — pick up car"
+          }
+        },
+        {
+          "name": {
+            "cs": "1km nad limit — delivery van",
+            "en": "1km nad limit — delivery van"
+          }
+        }
       ]
     },
     {
       "id": "film-lighting",
-      "name": { "cs": "Filmové osvětlení", "en": "Film lighting" },
+      "name": {
+        "cs": "Filmové osvětlení",
+        "en": "Film lighting"
+      },
       "thumb": "assets/img/rental/thumb/film-lighting.jpg",
       "items": [
-        { "name": "Kinoflo 4ft 4-bank" },
-        { "name": "ARRI 150W" },
-        { "name": "ARRI 650W" },
-        { "name": "ARRI Fresnel 1kW" },
-        { "name": "ARRI Fresnel 2kW" },
-        { "name": "ARRI Fresnel ST 2/3kW" },
-        { "name": "ARRI Fresnel T5" },
-        { "name": "ARRI Lite 800W" },
-        { "name": "IANE Beam 2kW (open face)" },
-        { "name": "DEDO set (3 ks)" },
-        { "name": "Dimmer for T1/T2" },
-        { "name": "Dimmer for T5" },
-        { "name": "Skypanel S30" },
-        { "name": "Skypanel S60" },
-        { "name": "Remote control" },
-        { "name": "ARRI M18" },
-        { "name": "ARRI M25" },
-        { "name": "ARRI M40" },
-        { "name": "Westcott Flex 1'x1' bi-color mat" },
-        { "name": "Spicelight" },
-        { "name": "4Source" },
-        { "name": "Astera — set 4× Hyperion Tube (2m)" },
-        { "name": "Astera Tube 120cm (8 ks)" },
-        { "name": "Astera 60cm" },
-        { "name": "Astera 120cm" },
-        { "name": "Astera box" },
-        { "name": "Redhead" },
-        { "name": "Aputure Light Storm 60x" },
-        { "name": "Aputure LS 600C Pro" },
-        { "name": "Nanlux Softpanel Dyno LED 650W" },
-        { "name": "Nanlux FS 300C" },
-        { "name": "Nanlux 500C" },
-        { "name": "Nanlux Evoke 900C" },
-        { "name": "Nanlux Evoke 1200 daylight with Fresnel" },
-        { "name": "Nanlux 1200 Bi-color" },
-        { "name": "Nanlux Evoke 2400B" },
-        { "name": "Nanlux Pavoslim 60CL (20x60)" },
-        { "name": "Nanlux Pavoslim 120C (60x30cm)" },
-        { "sub": "Chimery, snapgrid a příslušenství" },
-        { "name": "Chimera Quartz Plus S" },
-        { "name": "Chimera Quartz Plus M" },
-        { "name": "Snapgrid for Skypanel S30" },
-        { "name": "Snapgrid for snapbag Skypanel S30" },
-        { "name": "Snapgrid for Skypanel S60" },
-        { "name": "Snapgrid for snapbag Skypanel S60" },
-        { "name": "Speedring HMI 1,2kW / D12 / T2" },
-        { "name": "Speedring for M18 / ST 2/3 / T5" },
-        { "name": "Speedring for M40 / M25" },
-        { "name": "Speedring for HMI 575 / T1" },
-        { "name": "Scrim set" },
-        { "name": "V-Lock battery 15A (264Wh)" },
-        { "name": "V-Lock battery set 48V for Skypanel" },
-        { "name": "Aputure F10 Fresnel" },
-        { "name": "Aputure barn doors" },
-        { "name": "Aputure spotmount" },
-        { "name": "Nanlux Octabox 90 with B-mount" },
-        { "name": "Nanlux Octabox 120 with B-mount" },
-        { "name": "Nanlux Lantern softbox 120 with B-mount" },
-        { "name": "Nanlux Spacelight softbox for 650C" },
-        { "name": "Nanlux barn door for softpanel 650W" },
-        { "name": "Nanlux EC-DN650C eggcrate for 650C" },
-        { "name": "Nanlux Lantern softbox 120cm" },
-        { "name": "Nanlux Parabolic softbox 120cm" },
-        { "name": "Nanlux Parabolic softbox 150cm" },
-        { "name": "Nanlux Degree reflector 26°" },
-        { "name": "Degree reflector 45°" },
-        { "name": "Degree reflector 60°" },
-        { "name": "Nanlux 4Source adapter + lens" },
-        { "name": "Nanlux transmitter box" },
-        { "name": "Nanlux Fresnel for 900 / 1200 / 2400" },
-        { "name": "Nanlux 4Source zoom 15°–30°" },
-        { "name": "Nanlux 4Source zoom 25°–50°" },
-        { "name": "4Source lens mount" },
-        { "name": "Nanlux NLM optika" },
-        { "name": "Nanlux PJ — BM optika" }
+        {
+          "name": {
+            "cs": "Kinoflo 4ft 4-bank",
+            "en": "Kinoflo 4ft 4-bank"
+          }
+        },
+        {
+          "name": {
+            "cs": "ARRI 150W",
+            "en": "ARRI 150W"
+          }
+        },
+        {
+          "name": {
+            "cs": "ARRI 650W",
+            "en": "ARRI 650W"
+          }
+        },
+        {
+          "name": {
+            "cs": "ARRI Fresnel 1kW",
+            "en": "ARRI Fresnel 1kW"
+          }
+        },
+        {
+          "name": {
+            "cs": "ARRI Fresnel 2kW",
+            "en": "ARRI Fresnel 2kW"
+          }
+        },
+        {
+          "name": {
+            "cs": "ARRI Fresnel ST 2/3kW",
+            "en": "ARRI Fresnel ST 2/3kW"
+          }
+        },
+        {
+          "name": {
+            "cs": "ARRI Fresnel T5",
+            "en": "ARRI Fresnel T5"
+          }
+        },
+        {
+          "name": {
+            "cs": "ARRI Lite 800W",
+            "en": "ARRI Lite 800W"
+          }
+        },
+        {
+          "name": {
+            "cs": "IANE Beam 2kW (open face)",
+            "en": "IANE Beam 2kW (open face)"
+          }
+        },
+        {
+          "name": {
+            "cs": "DEDO set (3 ks)",
+            "en": "DEDO set (3 ks)"
+          }
+        },
+        {
+          "name": {
+            "cs": "Dimmer for T1/T2",
+            "en": "Dimmer for T1/T2"
+          }
+        },
+        {
+          "name": {
+            "cs": "Dimmer for T5",
+            "en": "Dimmer for T5"
+          }
+        },
+        {
+          "name": {
+            "cs": "Skypanel S30",
+            "en": "Skypanel S30"
+          }
+        },
+        {
+          "name": {
+            "cs": "Skypanel S60",
+            "en": "Skypanel S60"
+          }
+        },
+        {
+          "name": {
+            "cs": "Remote control",
+            "en": "Remote control"
+          }
+        },
+        {
+          "name": {
+            "cs": "ARRI M18",
+            "en": "ARRI M18"
+          }
+        },
+        {
+          "name": {
+            "cs": "ARRI M25",
+            "en": "ARRI M25"
+          }
+        },
+        {
+          "name": {
+            "cs": "ARRI M40",
+            "en": "ARRI M40"
+          }
+        },
+        {
+          "name": {
+            "cs": "Westcott Flex 1'x1' bi-color mat",
+            "en": "Westcott Flex 1'x1' bi-color mat"
+          }
+        },
+        {
+          "name": {
+            "cs": "Spicelight",
+            "en": "Spicelight"
+          }
+        },
+        {
+          "name": {
+            "cs": "4Source",
+            "en": "4Source"
+          }
+        },
+        {
+          "name": {
+            "cs": "Astera — set 4× Hyperion Tube (2m)",
+            "en": "Astera — set 4× Hyperion Tube (2m)"
+          }
+        },
+        {
+          "name": {
+            "cs": "Astera Tube 120cm (8 ks)",
+            "en": "Astera Tube 120cm (8 ks)"
+          }
+        },
+        {
+          "name": {
+            "cs": "Astera 60cm",
+            "en": "Astera 60cm"
+          }
+        },
+        {
+          "name": {
+            "cs": "Astera 120cm",
+            "en": "Astera 120cm"
+          }
+        },
+        {
+          "name": {
+            "cs": "Astera box",
+            "en": "Astera box"
+          }
+        },
+        {
+          "name": {
+            "cs": "Redhead",
+            "en": "Redhead"
+          }
+        },
+        {
+          "name": {
+            "cs": "Aputure Light Storm 60x",
+            "en": "Aputure Light Storm 60x"
+          }
+        },
+        {
+          "name": {
+            "cs": "Aputure LS 600C Pro",
+            "en": "Aputure LS 600C Pro"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux Softpanel Dyno LED 650W",
+            "en": "Nanlux Softpanel Dyno LED 650W"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux FS 300C",
+            "en": "Nanlux FS 300C"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux 500C",
+            "en": "Nanlux 500C"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux Evoke 900C",
+            "en": "Nanlux Evoke 900C"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux Evoke 1200 daylight with Fresnel",
+            "en": "Nanlux Evoke 1200 daylight with Fresnel"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux 1200 Bi-color",
+            "en": "Nanlux 1200 Bi-color"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux Evoke 2400B",
+            "en": "Nanlux Evoke 2400B"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux Pavoslim 60CL (20x60)",
+            "en": "Nanlux Pavoslim 60CL (20x60)"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux Pavoslim 120C (60x30cm)",
+            "en": "Nanlux Pavoslim 120C (60x30cm)"
+          }
+        },
+        {
+          "sub": {
+            "cs": "Chimery, snapgrid a příslušenství",
+            "en": "Chimeras, snapgrids and accessories"
+          }
+        },
+        {
+          "name": {
+            "cs": "Chimera Quartz Plus S",
+            "en": "Chimera Quartz Plus S"
+          }
+        },
+        {
+          "name": {
+            "cs": "Chimera Quartz Plus M",
+            "en": "Chimera Quartz Plus M"
+          }
+        },
+        {
+          "name": {
+            "cs": "Snapgrid for Skypanel S30",
+            "en": "Snapgrid for Skypanel S30"
+          }
+        },
+        {
+          "name": {
+            "cs": "Snapgrid for snapbag Skypanel S30",
+            "en": "Snapgrid for snapbag Skypanel S30"
+          }
+        },
+        {
+          "name": {
+            "cs": "Snapgrid for Skypanel S60",
+            "en": "Snapgrid for Skypanel S60"
+          }
+        },
+        {
+          "name": {
+            "cs": "Snapgrid for snapbag Skypanel S60",
+            "en": "Snapgrid for snapbag Skypanel S60"
+          }
+        },
+        {
+          "name": {
+            "cs": "Speedring HMI 1,2kW / D12 / T2",
+            "en": "Speedring HMI 1,2kW / D12 / T2"
+          }
+        },
+        {
+          "name": {
+            "cs": "Speedring for M18 / ST 2/3 / T5",
+            "en": "Speedring for M18 / ST 2/3 / T5"
+          }
+        },
+        {
+          "name": {
+            "cs": "Speedring for M40 / M25",
+            "en": "Speedring for M40 / M25"
+          }
+        },
+        {
+          "name": {
+            "cs": "Speedring for HMI 575 / T1",
+            "en": "Speedring for HMI 575 / T1"
+          }
+        },
+        {
+          "name": {
+            "cs": "Scrim set",
+            "en": "Scrim set"
+          }
+        },
+        {
+          "name": {
+            "cs": "V-Lock battery 15A (264Wh)",
+            "en": "V-Lock battery 15A (264Wh)"
+          }
+        },
+        {
+          "name": {
+            "cs": "V-Lock battery set 48V for Skypanel",
+            "en": "V-Lock battery set 48V for Skypanel"
+          }
+        },
+        {
+          "name": {
+            "cs": "Aputure F10 Fresnel",
+            "en": "Aputure F10 Fresnel"
+          }
+        },
+        {
+          "name": {
+            "cs": "Aputure barn doors",
+            "en": "Aputure barn doors"
+          }
+        },
+        {
+          "name": {
+            "cs": "Aputure spotmount",
+            "en": "Aputure spotmount"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux Octabox 90 with B-mount",
+            "en": "Nanlux Octabox 90 with B-mount"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux Octabox 120 with B-mount",
+            "en": "Nanlux Octabox 120 with B-mount"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux Lantern softbox 120 with B-mount",
+            "en": "Nanlux Lantern softbox 120 with B-mount"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux Spacelight softbox for 650C",
+            "en": "Nanlux Spacelight softbox for 650C"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux barn door for softpanel 650W",
+            "en": "Nanlux barn door for softpanel 650W"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux EC-DN650C eggcrate for 650C",
+            "en": "Nanlux EC-DN650C eggcrate for 650C"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux Lantern softbox 120cm",
+            "en": "Nanlux Lantern softbox 120cm"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux Parabolic softbox 120cm",
+            "en": "Nanlux Parabolic softbox 120cm"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux Parabolic softbox 150cm",
+            "en": "Nanlux Parabolic softbox 150cm"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux Degree reflector 26°",
+            "en": "Nanlux Degree reflector 26°"
+          }
+        },
+        {
+          "name": {
+            "cs": "Degree reflector 45°",
+            "en": "Degree reflector 45°"
+          }
+        },
+        {
+          "name": {
+            "cs": "Degree reflector 60°",
+            "en": "Degree reflector 60°"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux 4Source adapter + lens",
+            "en": "Nanlux 4Source adapter + lens"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux transmitter box",
+            "en": "Nanlux transmitter box"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux Fresnel for 900 / 1200 / 2400",
+            "en": "Nanlux Fresnel for 900 / 1200 / 2400"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux 4Source zoom 15°–30°",
+            "en": "Nanlux 4Source zoom 15°–30°"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux 4Source zoom 25°–50°",
+            "en": "Nanlux 4Source zoom 25°–50°"
+          }
+        },
+        {
+          "name": {
+            "cs": "4Source lens mount",
+            "en": "4Source lens mount"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux NLM optika",
+            "en": "Nanlux NLM optics"
+          }
+        },
+        {
+          "name": {
+            "cs": "Nanlux PJ — BM optika",
+            "en": "Nanlux PJ — BM optics"
+          }
+        }
       ]
     },
     {
       "id": "briese",
-      "name": { "cs": "Briese", "en": "Briese" },
+      "name": {
+        "cs": "Briese",
+        "en": "Briese"
+      },
       "thumb": "assets/img/rental/thumb/briese.jpg",
       "items": [
-        { "sub": "Briese Tungsten (focus reflektor, spacer, H2/H5 hlavice)" },
-        { "name": "Briese Focus 77 + H2" },
-        { "name": "Briese Focus 100 + H2" },
-        { "name": "Briese Focus 140 + H2" },
-        { "name": "Briese Focus 180 + H2" },
-        { "name": "Briese Focus 220 + H2" },
-        { "name": "Briese Focus 140 + H5" },
-        { "name": "Briese Focus 180 + H5" },
-        { "name": "Briese Focus 220 + H5" },
-        { "sub": "Briese HMI (focus reflektor, spacer, el. ballast, hlavice)" },
-        { "name": "Briese Focus 77 + 1,2kW HMI" },
-        { "name": "Briese Focus 100 + 1,2kW HMI" },
-        { "name": "Briese Focus 100 + 2,5kW HMI" },
-        { "name": "Briese Focus 140 + 1,2kW HMI" },
-        { "name": "Briese Focus 140 + 2,5kW HMI" },
-        { "name": "Briese Focus 180 + 1,2kW HMI" },
-        { "name": "Briese Focus 180 + 2,5kW HMI" },
-        { "name": "Briese Focus 180 + 4kW HMI" },
-        { "name": "Briese Focus 220 + 1,2kW HMI" },
-        { "name": "Briese Focus 220 + 2,5kW HMI" },
-        { "name": "Briese Focus 220 + 4kW HMI" },
-        { "sub": "Briese Flash Head (focus reflektor, spacer, blesková hlavice)" },
-        { "name": "Briese Focus 77 + Flash Head" },
-        { "name": "Briese Focus 100 + Flash Head" },
-        { "name": "Briese Focus 140 + Flash Head" },
-        { "name": "Briese Focus 180 + Flash Head" },
-        { "name": "Briese Focus 220 + Flash Head" },
-        { "sub": "Eggcrate pro Briese" },
-        { "name": "Eggcrate Focus 77" },
-        { "name": "Eggcrate Focus 100" },
-        { "name": "Eggcrate Focus 140" },
-        { "name": "Eggcrate Focus 180" },
-        { "name": "Eggcrate Focus 220" },
-        { "sub": "Diffusion pro Briese" },
-        { "name": "Diffusion Focus 77" },
-        { "name": "Diffusion Focus 100" },
-        { "name": "Diffusion Focus 140" },
-        { "name": "Diffusion Focus 180" },
-        { "name": "Diffusion Focus 220" }
+        {
+          "sub": {
+            "cs": "Briese Tungsten (focus reflektor, spacer, H2/H5 hlavice)",
+            "en": "Briese Tungsten (focus reflector, spacer, H2/H5 heads)"
+          }
+        },
+        {
+          "name": {
+            "cs": "Briese Focus 77 + H2",
+            "en": "Briese Focus 77 + H2"
+          }
+        },
+        {
+          "name": {
+            "cs": "Briese Focus 100 + H2",
+            "en": "Briese Focus 100 + H2"
+          }
+        },
+        {
+          "name": {
+            "cs": "Briese Focus 140 + H2",
+            "en": "Briese Focus 140 + H2"
+          }
+        },
+        {
+          "name": {
+            "cs": "Briese Focus 180 + H2",
+            "en": "Briese Focus 180 + H2"
+          }
+        },
+        {
+          "name": {
+            "cs": "Briese Focus 220 + H2",
+            "en": "Briese Focus 220 + H2"
+          }
+        },
+        {
+          "name": {
+            "cs": "Briese Focus 140 + H5",
+            "en": "Briese Focus 140 + H5"
+          }
+        },
+        {
+          "name": {
+            "cs": "Briese Focus 180 + H5",
+            "en": "Briese Focus 180 + H5"
+          }
+        },
+        {
+          "name": {
+            "cs": "Briese Focus 220 + H5",
+            "en": "Briese Focus 220 + H5"
+          }
+        },
+        {
+          "sub": {
+            "cs": "Briese HMI (focus reflektor, spacer, el. ballast, hlavice)",
+            "en": "Briese HMI (focus reflector, spacer, electronic ballast, heads)"
+          }
+        },
+        {
+          "name": {
+            "cs": "Briese Focus 77 + 1,2kW HMI",
+            "en": "Briese Focus 77 + 1,2kW HMI"
+          }
+        },
+        {
+          "name": {
+            "cs": "Briese Focus 100 + 1,2kW HMI",
+            "en": "Briese Focus 100 + 1,2kW HMI"
+          }
+        },
+        {
+          "name": {
+            "cs": "Briese Focus 100 + 2,5kW HMI",
+            "en": "Briese Focus 100 + 2,5kW HMI"
+          }
+        },
+        {
+          "name": {
+            "cs": "Briese Focus 140 + 1,2kW HMI",
+            "en": "Briese Focus 140 + 1,2kW HMI"
+          }
+        },
+        {
+          "name": {
+            "cs": "Briese Focus 140 + 2,5kW HMI",
+            "en": "Briese Focus 140 + 2,5kW HMI"
+          }
+        },
+        {
+          "name": {
+            "cs": "Briese Focus 180 + 1,2kW HMI",
+            "en": "Briese Focus 180 + 1,2kW HMI"
+          }
+        },
+        {
+          "name": {
+            "cs": "Briese Focus 180 + 2,5kW HMI",
+            "en": "Briese Focus 180 + 2,5kW HMI"
+          }
+        },
+        {
+          "name": {
+            "cs": "Briese Focus 180 + 4kW HMI",
+            "en": "Briese Focus 180 + 4kW HMI"
+          }
+        },
+        {
+          "name": {
+            "cs": "Briese Focus 220 + 1,2kW HMI",
+            "en": "Briese Focus 220 + 1,2kW HMI"
+          }
+        },
+        {
+          "name": {
+            "cs": "Briese Focus 220 + 2,5kW HMI",
+            "en": "Briese Focus 220 + 2,5kW HMI"
+          }
+        },
+        {
+          "name": {
+            "cs": "Briese Focus 220 + 4kW HMI",
+            "en": "Briese Focus 220 + 4kW HMI"
+          }
+        },
+        {
+          "sub": {
+            "cs": "Briese Flash Head (focus reflektor, spacer, blesková hlavice)",
+            "en": "Briese Flash Head (focus reflector, spacer, flash head)"
+          }
+        },
+        {
+          "name": {
+            "cs": "Briese Focus 77 + Flash Head",
+            "en": "Briese Focus 77 + Flash Head"
+          }
+        },
+        {
+          "name": {
+            "cs": "Briese Focus 100 + Flash Head",
+            "en": "Briese Focus 100 + Flash Head"
+          }
+        },
+        {
+          "name": {
+            "cs": "Briese Focus 140 + Flash Head",
+            "en": "Briese Focus 140 + Flash Head"
+          }
+        },
+        {
+          "name": {
+            "cs": "Briese Focus 180 + Flash Head",
+            "en": "Briese Focus 180 + Flash Head"
+          }
+        },
+        {
+          "name": {
+            "cs": "Briese Focus 220 + Flash Head",
+            "en": "Briese Focus 220 + Flash Head"
+          }
+        },
+        {
+          "sub": {
+            "cs": "Eggcrate pro Briese",
+            "en": "Eggcrate for Briese"
+          }
+        },
+        {
+          "name": {
+            "cs": "Eggcrate Focus 77",
+            "en": "Eggcrate Focus 77"
+          }
+        },
+        {
+          "name": {
+            "cs": "Eggcrate Focus 100",
+            "en": "Eggcrate Focus 100"
+          }
+        },
+        {
+          "name": {
+            "cs": "Eggcrate Focus 140",
+            "en": "Eggcrate Focus 140"
+          }
+        },
+        {
+          "name": {
+            "cs": "Eggcrate Focus 180",
+            "en": "Eggcrate Focus 180"
+          }
+        },
+        {
+          "name": {
+            "cs": "Eggcrate Focus 220",
+            "en": "Eggcrate Focus 220"
+          }
+        },
+        {
+          "sub": {
+            "cs": "Diffusion pro Briese",
+            "en": "Diffusion for Briese"
+          }
+        },
+        {
+          "name": {
+            "cs": "Diffusion Focus 77",
+            "en": "Diffusion Focus 77"
+          }
+        },
+        {
+          "name": {
+            "cs": "Diffusion Focus 100",
+            "en": "Diffusion Focus 100"
+          }
+        },
+        {
+          "name": {
+            "cs": "Diffusion Focus 140",
+            "en": "Diffusion Focus 140"
+          }
+        },
+        {
+          "name": {
+            "cs": "Diffusion Focus 180",
+            "en": "Diffusion Focus 180"
+          }
+        },
+        {
+          "name": {
+            "cs": "Diffusion Focus 220",
+            "en": "Diffusion Focus 220"
+          }
+        }
       ]
     }
   ]
