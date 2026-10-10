@@ -11,6 +11,8 @@
       console.error(err);
     });
 
+  var selected = [];
+
   function render(categories) {
     root.innerHTML = '';
     categories.forEach(function (cat) {
@@ -23,7 +25,9 @@
         if (item.sub) {
           return '<li class="is-sub">' + escapeHtml(item.sub) + '</li>';
         }
-        return '<li>' + escapeHtml(item.name) + '</li>';
+        return '<li class="gear-list__item">' +
+          '<label><input type="checkbox" data-select-item value="' + escapeHtml(item.name) + '"> ' +
+          escapeHtml(item.name) + '</label></li>';
       }).join('');
 
       section.innerHTML =
@@ -51,6 +55,52 @@
 
       root.appendChild(section);
     });
+    setupSelection();
+  }
+
+  var bar = null;
+
+  function setupSelection() {
+    root.addEventListener('change', function (e) {
+      if (!e.target.matches('[data-select-item]')) return;
+      var name = e.target.value;
+      if (e.target.checked) {
+        if (selected.indexOf(name) === -1) selected.push(name);
+      } else {
+        selected = selected.filter(function (n) { return n !== name; });
+      }
+      updateBar();
+    });
+
+    if (!bar) {
+      bar = document.createElement('div');
+      bar.className = 'selection-bar hidden';
+      bar.innerHTML =
+        '<span class="selection-bar__count"></span>' +
+        '<a class="btn" id="selection-bar__send" href="#">' +
+          '<span lang="cs">Poptat vybranou techniku</span><span lang="en">Request selected gear</span>' +
+        '</a>';
+      document.body.appendChild(bar);
+    }
+  }
+
+  function updateBar() {
+    var countEl = bar.querySelector('.selection-bar__count');
+    var sendEl = bar.querySelector('#selection-bar__send');
+    if (selected.length === 0) {
+      bar.classList.add('hidden');
+      return;
+    }
+    bar.classList.remove('hidden');
+    countEl.innerHTML =
+      '<span lang="cs">Vybráno: ' + selected.length + ' položek</span>' +
+      '<span lang="en">Selected: ' + selected.length + ' items</span>';
+    var subject = 'Poptávka techniky — Photo Rental Prague';
+    var body = 'Dobrý den,\n\nmám zájem o zapůjčení následující techniky:\n\n' +
+      selected.map(function (n) { return '- ' + n; }).join('\n') +
+      '\n\nDěkuji za nabídku.';
+    sendEl.href = 'mailto:tomasoralek@gmail.com?subject=' + encodeURIComponent(subject) +
+      '&body=' + encodeURIComponent(body);
   }
 
   function escapeHtml(s) {

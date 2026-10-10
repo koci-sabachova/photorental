@@ -281,6 +281,19 @@ main { display: block; }
   padding-top: 16px;
   columns: initial;
 }
+.gear-list__item label { display: flex; align-items: center; gap: 10px; cursor: pointer; }
+.gear-list__item input[type="checkbox"] { flex-shrink: 0; width: 16px; height: 16px; accent-color: var(--ink); }
+
+.selection-bar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 50;
+  background: var(--black); color: var(--white);
+  display: flex; align-items: center; justify-content: space-between; gap: 20px;
+  padding: 16px 24px;
+}
+.selection-bar.hidden { display: none; }
+.selection-bar__count { font-size: 14px; }
+.selection-bar #selection-bar__send { border-color: var(--white); color: var(--white); margin: 0; }
+.selection-bar #selection-bar__send:hover { background: var(--white); color: var(--black); }
 .category--collapsed .gear-list { max-height: 132px; overflow: hidden; position: relative; }
 .category--collapsed .gear-list::after {
   content: "";
