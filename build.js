@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Stejný princip jako u 13remesel: _pages + _partials -> docs/.
-// Bez BASE_PATH (web běží na vlastní doméně z kořene).
+// BASE_PATH je prázdný na vlastní doméně (web běží z kořene) a jen pro
+// GitHub Pages preview se v CI nastaví na "/photorental" (repo je subpath).
 import {
   readFileSync, writeFileSync, mkdirSync, readdirSync,
   existsSync, cpSync, rmSync,
@@ -11,6 +12,7 @@ const ROOT = process.cwd();
 const PAGES = join(ROOT, '_pages');
 const PARTIALS = join(ROOT, '_partials');
 const DIST = join(ROOT, 'docs');
+const BASE = (process.env.BASE_PATH || '').replace(/\/$/, '');
 
 if (existsSync(DIST)) rmSync(DIST, { recursive: true, force: true });
 mkdirSync(DIST, { recursive: true });
@@ -50,7 +52,8 @@ for (const file of pages) {
     descriptionEn: '',
     bodyClass: '',
   };
-  const vars = { ...defaults, ...meta };
+  const vars = { ...defaults, ...meta, base: BASE };
+  vars.baseJson = JSON.stringify(vars.base);
   vars.titleCsJson = JSON.stringify(vars.titleCs);
   vars.titleEnJson = JSON.stringify(vars.titleEn);
   vars.descriptionCsJson = JSON.stringify(vars.descriptionCs);
@@ -63,9 +66,9 @@ for (const file of pages) {
     template(head, vars),
     '</head>',
     `<body class="${vars.bodyClass}">`,
-    header,
-    body,
-    footer,
+    template(header, vars),
+    template(body, vars),
+    template(footer, vars),
     '</body>',
     '</html>',
   ].join('\n');

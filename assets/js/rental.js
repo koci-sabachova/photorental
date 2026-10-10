@@ -3,7 +3,7 @@
   var root = document.getElementById('categories');
   if (!root) return;
 
-  fetch('/data/equipment.json')
+  fetch(window.BASE_PATH + '/data/equipment.json')
     .then(function (r) { return r.json(); })
     .then(function (data) { render(data.categories || []); })
     .catch(function (err) {
@@ -27,7 +27,7 @@
       }).join('');
 
       section.innerHTML =
-        '<img class="category__thumb" src="/' + cat.thumb + '" alt="" loading="lazy" width="160" height="160">' +
+        '<img class="category__thumb" src="' + window.BASE_PATH + '/' + cat.thumb + '" alt="" loading="lazy" width="160" height="160">' +
         '<div>' +
           '<h3 class="category__name">' +
             '<span lang="cs">' + escapeHtml(cat.name.cs) + '</span>' +

@@ -3,7 +3,7 @@
   var root = document.getElementById('news-slot');
   if (!root) return;
 
-  fetch('/data/news.json')
+  fetch(window.BASE_PATH + '/data/news.json')
     .then(function (r) { return r.json(); })
     .then(function (news) { render(news); })
     .catch(function () { renderEmpty(); });
@@ -11,7 +11,7 @@
   function render(news) {
     if (!news || (!news.text_cs && !news.text_en)) { renderEmpty(); return; }
     var img = news.image
-      ? '<img class="news__img" src="/' + news.image + '" alt="">'
+      ? '<img class="news__img" src="' + window.BASE_PATH + '/' + news.image + '" alt="">'
       : '<div class="news__img" aria-hidden="true"></div>';
     root.innerHTML =
       '<div class="news">' +
