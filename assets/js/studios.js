@@ -1,16 +1,5 @@
-// Rozbalování popisu studia a zobrazení plánku na stránce /studios/.
+// Zobrazení plánku a lightbox pro fotky na stránce /studios/.
 (function () {
-  document.querySelectorAll('[data-expand]').forEach(function (btn) {
-    var target = document.getElementById(btn.getAttribute('data-expand'));
-    if (!target) return;
-    btn.addEventListener('click', function () {
-      var collapsed = target.classList.toggle('is-collapsed');
-      btn.innerHTML = collapsed
-        ? '<span lang="cs">Číst více</span><span lang="en">Read more</span>'
-        : '<span lang="cs">Skrýt</span><span lang="en">Hide</span>';
-    });
-  });
-
   document.querySelectorAll('[data-show-plan]').forEach(function (btn) {
     var target = document.getElementById(btn.getAttribute('data-show-plan'));
     if (!target) return;
@@ -29,6 +18,22 @@
       note.className = 'studio__plan-missing';
       note.innerHTML = '<span lang="cs">Plánek zatím není nahraný.</span><span lang="en">Floor plan not uploaded yet.</span>';
       img.replaceWith(note);
+    });
+  });
+
+  var lightbox = document.createElement('div');
+  lightbox.className = 'lightbox';
+  lightbox.hidden = true;
+  var lightboxImg = document.createElement('img');
+  lightbox.appendChild(lightboxImg);
+  document.body.appendChild(lightbox);
+  lightbox.addEventListener('click', function () { lightbox.hidden = true; });
+
+  document.querySelectorAll('.gallery img').forEach(function (img) {
+    img.addEventListener('click', function () {
+      lightboxImg.src = img.src;
+      lightboxImg.alt = img.alt;
+      lightbox.hidden = false;
     });
   });
 })();
